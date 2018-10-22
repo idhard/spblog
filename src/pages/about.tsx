@@ -37,9 +37,7 @@ const About: React.SFC = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Ghost is professional publishing platform designed for modern journalism. This is a
-                demo site of a basic Ghost install to give you a general sense of what a new Ghost
-                site looks like when set up for the first time.
+                TODO: ABOUT page has to be a markdown content page
               </p>
               <blockquote>
                 <p>
