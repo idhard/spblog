@@ -11,7 +11,7 @@ import Helmet from 'react-helmet';
 
 const PageTemplate = css`
   .site-main {
-    background #fff;
+    background: #fff;
     padding-bottom: 4vw;
   }
 `;
@@ -37,25 +37,14 @@ const About: React.SFC = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                TODO: ABOUT page has to be a markdown content page
+                
               </p>
               <blockquote>
                 <p>
                   If you'd like to set up a site like this for yourself, head over to{' '}
-                  <a href="https://ghost.org">Ghost.org</a> and start a free 14 day trial to give
-                  Ghost a try!
+                  <a href="https://github.com/scttcper/gatsby-casper">Gatsby-casper</a>
                 </p>
               </blockquote>
-              <p>
-                If you're a developer: Ghost is a completely open source (MIT) Node.js application
-                built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite,
-                and is publicly available <a href="https://github.com/TryGhost/ghost">on Github</a>.
-              </p>
-              <p>
-                If you need help with using Ghost, you'll find a ton of useful articles on{' '}
-                <a href="https://help.ghost.org">our knowledgebase</a>, as well as extensive{' '}
-                <a href="https://docs.ghost.org">developer documentation</a>.
-              </p>
             </div>
           </PostFullContent>
         </article>
