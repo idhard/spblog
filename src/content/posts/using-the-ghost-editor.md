@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using The Ghost Editor"
-author: Ghost
+author: Sidepro
 tags: ["Getting Started"]
-image: img/writing.jpg
+image: ../img/writing.jpg
 date: "2015-02-02T23:46:37.121Z"
 draft: false
 ---

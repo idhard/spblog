@@ -196,6 +196,7 @@ export interface PostCardProps {
 }
 
 const PostCard: React.SFC<PostCardProps> = ({ post }) => {
+  console.log(post);
   return (
     <article className={`post-card ${PostCardStyles} ${!post.frontmatter.image ? 'no-image' : ''}`}>
       {post.frontmatter.image && (

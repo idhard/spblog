@@ -24,16 +24,16 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
+  title: 'Sidepro',
   description: 'The professional publishing platform',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://blog.sidepro.com',
   facebook: 'https://www.facebook.com/ghost',
   twitter: 'https://twitter.com/tryghost',
   showSubscribe: true,
-  mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
-  mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
+  mailchimpAction: 'https://sidepro.us19.list-manage.com/subscribe/post?u=b480165f7ec386742047d86bf&amp;id=fa113a8da2',
+  mailchimpName: 'b_b480165f7ec386742047d86bf_fa113a8da2',
 };
 
 export default config;

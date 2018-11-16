@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Welcome to Ghost"
-author: Ghost
+author: Sidepro
 tags: ["Getting Started"]
-image: img/welcome-to-ghost.jpg
+image: ../img/welcome-to-ghost.jpg
 date: "2018-05-06T23:46:37.121Z"
 draft: false
 ---

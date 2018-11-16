@@ -3,6 +3,7 @@ import * as React from 'react';
 import { css } from 'react-emotion';
 import Helmet from 'react-helmet';
 
+
 import Footer from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
 import PostCard from '../components/PostCard';
@@ -21,6 +22,9 @@ import {
   SiteTitle,
 } from '../styles/shared';
 import { PageContext } from '../templates/post';
+
+import { setConfig } from 'react-hot-loader';
+setConfig({ pureSFC: true });
 
 const HomePosts = css`
   @media (min-width: 795px) {
@@ -91,6 +95,8 @@ const IndexPage: React.SFC<IndexProps> = props => {
     <IndexLayout className={`${HomePosts}`}>
       <Helmet>
         <title>{config.title}</title>
+        <meta name="description" content={config.description}/>
+
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.title} />
@@ -109,6 +115,11 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
         <meta property="og:image:width" content={width} />
         <meta property="og:image:height" content={height} />
+        
+        {/* <link rel="canonical" href="https://copycat.com/"/> */}
+
+        {/* TODO add in18 support */}
+        <html lang="en"/>
       </Helmet>
       <Wrapper>
         <header
