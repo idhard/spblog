@@ -72,3 +72,7 @@ https://legacy.gitbook.com/book/basarat/typescript/details
 https://levelup.gitconnected.com/ultimate-react-component-patterns-with-typescript-2-8-82990c516935
 
 https://medium.com/@martin_hotell
+
+ISSUES
+
+https://github.com/gatsbyjs/gatsby/blob/ee79d5ceb3ee2cf82ea6a50c27f16caea6ca73f2/packages/gatsby-plugin-typescript/README.md#caveats

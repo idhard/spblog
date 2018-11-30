@@ -22,7 +22,7 @@ interface SiteNavLogoProps {
 const SubscribeLogo = () => (
   <StaticQuery
     query={graphql`
-      query SubscribeOverlayLogo {
+      query otheName {
         logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
           childImageSharp {
             # Specify the image processing specifications right in the query.

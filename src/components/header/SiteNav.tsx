@@ -1,6 +1,6 @@
 // tslint:disable:no-http-string
 import { Link } from 'gatsby';
-import * as React from 'react';
+import React, { createRef } from 'react';
 
 import { SocialLink } from '../../styles/shared';
 import config from '../../website-config';
@@ -22,44 +22,35 @@ interface SiteNavProps {
   isHome?: boolean;
 }
 
-interface SiteNaveState {
-  isOpen: boolean;
-}
+const SiteNav: React.SFC<SiteNavProps> = ({ isHome }) => {
+  const subscribe = createRef<SubscribeModal>();
 
-class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
-  subscribe = React.createRef<SubscribeModal>();
-
-  constructor(props: SiteNavProps) {
-    super(props);
-    this.state = { isOpen: false };
-  }
-  openModal = () => {
-    if (this.subscribe.current) {
-      this.subscribe.current.open();
+  const openModal = () => {
+    if (subscribe.current) {
+      subscribe.current.open();
     }
   };
 
-  render() {
-    const { isHome = false } = this.props;
-    return (
-      <nav className={`${isHome ? HomeNavRaise : ''} ${SiteNavStyles}`}>
-        <SiteNavLeft>
-          {!isHome && <SiteNavLogo />}
-          <ul className={`${NavStyles}`} role="menu">
-            {/* TODO: mark current nav item - add class nav-current */}
-            <li role="menuitem">
-              <Link to="/">Home</Link>
-            </li>
-            <li role="menuitem">
-              <Link to="/about">About</Link>
-            </li>
-            <li role="menuitem">
-              <Link to="/tags/getting-started/">Getting Started</Link>
-            </li>
-          </ul>
-        </SiteNavLeft>
-        <SiteNavRight>
-          <SocialLinks>
+  return (
+    <nav className={`${isHome ? HomeNavRaise : ''} ${SiteNavStyles}`}>
+      <SiteNavLeft>
+        {!isHome && <SiteNavLogo />}
+        <ul className={NavStyles} role="menu">
+          {/* TODO: mark current nav item - add class nav-current */}
+          <li role="menuitem">
+            <Link to="/">Home</Link>
+          </li>
+          <li role="menuitem">
+            <Link to="/about">About</Link>
+          </li>
+          <li role="menuitem">
+            <Link to="/tags/getting-started/">Getting Started</Link>
+          </li>
+        </ul>
+      </SiteNavLeft>
+      <SiteNavRight>
+        <SocialLinks>
+          {config.facebook && (
             <a
               className={`${SocialLink}`}
               href={config.facebook}
@@ -67,11 +58,10 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
               title="Facebook"
               rel="noopener noreferrer"
             >
-             
+              <Facebook />
             </a>
-            <Facebook className="override"  friends={[1,2,3]}>
-                <div>This is a child</div>
-              </Facebook>
+          )}
+          {config.twitter && (
             <a
               className={`${SocialLink}`}
               href={config.twitter}
@@ -81,15 +71,15 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
             >
               <Twitter />
             </a>
-          </SocialLinks>
-          {config.showSubscribe && (
-            <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
           )}
-          {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
-        </SiteNavRight>
-      </nav>
-    );
-  }
-}
+        </SocialLinks>
+        {config.showSubscribe && <SubscribeButton onClick={openModal}>Subscribe</SubscribeButton>}
+        {config.showSubscribe && <SubscribeModal ref={subscribe} />}
+      </SiteNavRight>
+
+     
+    </nav>
+  );
+};
 
 export default SiteNav;
