@@ -127,7 +127,8 @@ const IndexPage: React.SFC<IndexProps> = props => {
           <div className={`${inner}`}>
             <SiteHeaderContent>
               <SiteTitle>
-                {props.data.logo ? (
+              {config.title}
+                {/* {props.data.logo ? (
                   <img
                     style={{ maxHeight: '45px' }}
                     src={props.data.logo.childImageSharp.fixed.src}
@@ -135,7 +136,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
                   />
                 ) : (
                   config.title
-                )}
+                )} */}
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>

@@ -27,7 +27,7 @@ const config: WebsiteConfig = {
   title: 'Sidepro',
   description: 'Yet another side project site',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  //logo: 'img/ghost-logo.png',
   siteUrl: 'https://blog.sidepro.com',
   twitter: 'https://twitter.com/IvanHoromanski',
   showSubscribe: true,
