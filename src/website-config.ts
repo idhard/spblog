@@ -25,7 +25,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Sidepro',
-  description: 'The professional publishing platform',
+  description: 'Yet another side project site',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   siteUrl: 'https://blog.sidepro.com',

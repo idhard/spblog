@@ -4,11 +4,12 @@ title: React & Typescript
 image: ../img/testimg-cover.jpg
 author: Sidepro
 date: 2018-09-30T07:03:47.149Z
+draft: true
 tags: 
-  - Tests
+  - Typescript
 ---
 
-tell me why i need typescript 
+Tell me why i need typescript 
 
 ---
 

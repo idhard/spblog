@@ -1,13 +1,14 @@
 ---
 title: "React review"
 author: Sidepro
-tags: []
-image: img/demo1.jpg
-date: "1863-11-19T10:00:00.000Z"
-draft: true
+tags: [React, javascript]
+image: ../img/inside.jpg
+date: "2018-11-30T10:00:00.000Z"
+draft: false
 ---
 
-#### React architecture 
+# React architecture 
+
 
 React tends to move almost everything to "virtual" instead of relaying on the native API provided by the browser engines. You can't efficiently update the DOM, virtualize it (https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom) , you have limitation on the browser stack: virtualize it (https://github.com/acdlite/react-fiber-architecture) , you have issues with borwser events: virtualize it or synthetize them (https://reactjs.org/docs/events.html) :D. 
 

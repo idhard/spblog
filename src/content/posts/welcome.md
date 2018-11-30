@@ -10,11 +10,9 @@ draft: false
 
 >Even a monkey can develop , but lests try not to be  :) 
 
-I will structure a set of tutorials to help junniors to adquire the minimun desired requisits all companies would love :) 
 
 Requirements 
 
 Git
 - https://lab.github.com/ 
 
-Javascript 

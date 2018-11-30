@@ -3,9 +3,9 @@ layout: post
 title: "Cloud computing"
 author: Sidepro
 tags: ["DevOps"]
-image: ../img/demo4.jpg
+image: ../img/cloud.jpg
 date: "2018-11-14T15:11:55.000Z"
-draft: true
+draft: false
 ---
 
 # Cloud computing

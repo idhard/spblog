@@ -19,7 +19,6 @@ const PageTemplate = css`
 `;
 
 const About: React.SFC = (props) => {
-  console.log(props.data);
 return(
   <IndexLayout>
     <Helmet>
