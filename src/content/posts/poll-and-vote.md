@@ -5,7 +5,7 @@ author: Sidepro
 tags: ["Side project"]
 image: ../img/cloud.jpg
 date: "2018-11-14T15:11:55.000Z"
-draft: false
+draft: true
 ---
 
 Poll and vote
