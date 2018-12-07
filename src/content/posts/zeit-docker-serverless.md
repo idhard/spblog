@@ -80,7 +80,7 @@ https://blog.cloudflare.com/cloud-computing-without-containers/
 
 ### Conclution 
 
-The majority of the Zeit community feelt unhappy or (disappointed)[https://spectrum.chat/zeit?thread=cbad7540-8159-41a7-9767-9c3f6310b497] with the way they announced the release of Now 2.0 , this brought a lot of uncertainly to the community and when is time to choose your cloud provider for your client uncertainly is something you don't want in the equation.
+The majority of the Zeit community feelt unhappy or [disappointed](https://spectrum.chat/zeit?thread=cbad7540-8159-41a7-9767-9c3f6310b497) with the way they announced the release of Now 2.0 , this brought a lot of uncertainly to the community and when is time to choose your cloud provider for your client uncertainly is something you don't want in the equation.
 
 >“Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.”
 — M. Conway
