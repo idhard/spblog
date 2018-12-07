@@ -85,10 +85,9 @@ The majority of the Zeit community feelt unhappy or (disappointed)[https://spect
 >“Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.”
 — M. Conway
 
-
 What do you think ? should we give a second chance to Zeit? 
 
-Yes, I believe they will keep pushing the state of the art for cloud computing and development experience, is not an easy path though, but I trust the team behind Zeit will improve their communication strategy going on. I hope this was just a small bump on their way, that being said, I wouldn't deploy critical business process to their infrastructure until it reach certain maturity.  
+Yes, I believe they will keep pushing the _state of the art for cloud computing and development experience_, is not an easy path though, but I trust the team behind Zeit will improve their communication strategy going on. I hope this was just a small bump on their way, that being said, I wouldn't deploy critical business process to their infrastructure until it reach certain maturity.  
 
 
 
