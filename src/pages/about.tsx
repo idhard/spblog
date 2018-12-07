@@ -40,17 +40,17 @@ return(
             <div className="post-content">
               <p>
                 Hey, welcome to Sidepro! of course this is another site under construction like all
-                our side projects, join me on the adventure of completing some of my countless side projects.
+                our side projects.
               </p>
               <p>
+                Join me on the adventure of completing some of my countless side projects.
                 Here you will find , ideas , technical reviews , new trends and hopfully motivation
                 to complete some of your own side projects.
               </p>
 
-
               <blockquote>
                 <p>
-                  If you'd like to set up a site like this for yourself, head over to{' '}
+                  If you'd g to set up a site like this for yourself, head over to{' '}
                   <a href="https://github.com/scttcper/gatsby-casper">Gatsby-casper</a>
                 </p>
               </blockquote>
