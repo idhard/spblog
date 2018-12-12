@@ -8,7 +8,7 @@ date: "2018-12-07T15:11:55.000Z"
 draft: false
 ---
 
-I have been following [Zeit](https://zeit.co/) for a while , a company that provide easy management of cloud infrastructure through their CLI tool [Now](https://zeit.co/now), they characterize for having top-notch team lead by Guillermo Rauch [@rauchg](https://twitter.com/rauchg) (a well know figure in the javascript ecosystem) and a wide set of open source tools, frameworks and libraries (https://github.com/zeit), they are a young but promising company that strives to reduce friction between writing code and deploying it to the cloud. 
+I have been following [Zeit](https://zeit.co/) for a while , a company that provides easy management of cloud infrastructure through their CLI tool [Now](https://zeit.co/now), they characterize for having top-notch team lead by Guillermo Rauch [@rauchg](https://twitter.com/rauchg) (a well know figure in the javascript ecosystem) and a wide set of open source tools, frameworks and libraries (https://github.com/zeit), they are a young but promising company that strives to reduce friction between writing code and deploying it to the cloud. 
 
 >Make Cloud Computing as Easy and Accessible as Mobile Computing.
 
