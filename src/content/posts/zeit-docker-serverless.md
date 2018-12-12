@@ -28,7 +28,7 @@ https://spectrum.chat/zeit/now/clarify-future-support-of-docker-on-now-platform~
 ![spectrum chat](assets/zeit-chat2018-12-06.png)
 
 
-Unfortunately, this change on the platform haven't been well informed/documented or anticipated by Zeit and generate a lot of unhappy developers in their community :(. The deprecation announcement of serverless docker service took by surprise all early adopters, furthermore they didn't create an official statement of the reasons for such change neither mentioned when your code will stop running on Now V1, taking by surprise all early adopters of this technology and creating a lot of uncertain in a field where you can't be uncertain :D, not cool! 
+Unfortunately, this change on the platform haven't been well informed/documented or anticipated by Zeit and generate a lot of unhappy developers in their community :(. The deprecation announcement of serverless docker service took by surprise all early adopters, furthermore they didn't create an official statement of the reasons for such change neither mentioned when your code will stop running on Now V1 creating a lot of uncertain in a field where you can't be uncertain :D, not cool! 
 
 
 ### Now 2.0 
