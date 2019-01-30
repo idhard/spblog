@@ -46,8 +46,6 @@ Now is time for us to answer these questions
 - How could we ensure nobody else knows who and where we are using their roads?
 - How much the public sector spend on private cloud services?
 
-TODO ADD questions ? 
-
 
 #### Links of interest
 https://www.contractsadvance.co.uk/uk-public-sector-spend-on-cloud-and-digital-services/
