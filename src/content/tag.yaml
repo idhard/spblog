@@ -1,3 +1,6 @@
 - id: DevOps
   description: Infrastructure that matter.
   image: img/speeches-cover.jpg
+- id: OffTopic
+  description: Thoughts.
+  image: img/speeches-cover.jpg  
