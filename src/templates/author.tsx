@@ -261,7 +261,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(limit: 2000, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } },limit: 2000, sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {

@@ -39,7 +39,7 @@ return(
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Hey, welcome to Sidepro! of course this is another site under construction like all
+                Hey, welcome to Sidepro! of course this is another site under construction like all of
                 our side projects.
               </p>
               <p>
@@ -54,6 +54,9 @@ return(
                   <a href="https://github.com/scttcper/gatsby-casper">Gatsby-casper</a>
                 </p>
               </blockquote>
+              <p>
+                Images for the post are taken from : <a href="https://unsplash.com">Unsplash</a>
+              </p>
             </div>
           </PostFullContent>
         </article>

@@ -14,7 +14,7 @@ He soon realized that everyone could benefit from the newly created roads but in
 
 - Bicycles are for free as they do not take much of the space in the road
 - Cars will pay a small fee because they take one line on the road
-- Lorry will have to pay 2 times what a car pays
+- Lorries will have to pay 2 times what a car pays
 
 Everyone was happy to enjoy the new roads and the possibility of exploring the towns in the connected network of Roma's roads.
 
